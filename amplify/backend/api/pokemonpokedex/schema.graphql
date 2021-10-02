@@ -1,0 +1,11 @@
+type Pokemon @model {
+  attack: Int!
+  defense: Int!
+  description: String
+  height: Int!
+  id: ID!
+  name: String!
+  imageUri: String!
+  type: String!
+  weight: Int!
+}
